@@ -11,5 +11,10 @@
     "typescript"
   ],
   "author": "Minori Technology",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minori-tech/mnr-decorator.git"
+  },
+  "devDependencies": {}
 }
