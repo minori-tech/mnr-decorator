@@ -1,6 +1,6 @@
 import { DecoratorMetadataArgs } from "./metadata/DecoratorMetadataArgs";
 import { DecoratorTypes } from "./types/DecoratorTypes";
-import { DecoratorOptions } from "./DecoratorOptions";
+import { DecoratorOptions, FilterType } from "./DecoratorOptions";
 import { getFromContainer } from "./container";
 import { MetadataStorage } from "./metadata/MetadataStorage";
 import { DecoratorMetadata } from "./metadata/DecoratorMetadata";
@@ -8,6 +8,7 @@ import { DecoratorMetadata } from "./metadata/DecoratorMetadata";
 export {
   DecoratorMetadataArgs,
   DecoratorTypes,
+  FilterType,
   DecoratorOptions,
   getFromContainer,
   MetadataStorage,
