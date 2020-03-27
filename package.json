@@ -1,0 +1,15 @@
+{
+  "name": "mnr-decorator",
+  "version": "1.0.0",
+  "description": "Class-based with Typescript / ES6 / ES5 using decorators.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "decorator",
+    "typescript"
+  ],
+  "author": "Minori Technology",
+  "license": "MIT"
+}
