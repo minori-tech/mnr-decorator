@@ -5,6 +5,15 @@ import { getFromContainer } from "./container";
 import { MetadataStorage } from "./metadata/MetadataStorage";
 import { DecoratorMetadata } from "./metadata/DecoratorMetadata";
 
+export {
+  DecoratorMetadataArgs,
+  DecoratorTypes,
+  DecoratorOptions,
+  getFromContainer,
+  MetadataStorage,
+  DecoratorMetadata
+};
+
 export function ColumnSpec(options?: DecoratorOptions) {
   return function(object: any, propertyName: string) {
     const args: DecoratorMetadataArgs = {
