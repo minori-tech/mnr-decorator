@@ -1,7 +1,10 @@
-export type FilterType = 'multi' | 'single' | 'date' | undefined
+export type FilterType = "multi" | "single" | "date" | undefined;
 
+export type Lookup = Record<number | string, string>;
 export interface DecoratorOptions {
-    label?: string
+  label?: string;
 
-    isFilter?: FilterType
+  isFilter?: FilterType;
+
+  lookup?: Lookup;
 }
